@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application>
+    <name>NexoPOS 4</name>
+    <namespace>nexopos_advanced</namespace>
+    <version>4.0</version>
+    <author>Blair Jersyer</author>
+    <description>Nexo by Tendoo team</description>
+    <language>/language</language>
+    <main>nexopos_advanced.php</main>
+</application>
