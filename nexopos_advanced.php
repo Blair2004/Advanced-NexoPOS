@@ -16,7 +16,7 @@ class NexoPOS_Advanced_Init extends Tendoo_Module {
         $this->filters  =   new NexoPOS_Filters;
         $this->actions  =   new NexoPOS_Actions;
         $this->install  =   new NexoPOS_Install;
-        $this->load->helper('nexopos');
+        // $this->load->helper('nexopos');
         $this->events->add_action( 'load_dashboard', [ $this, 'dashboard' ] );
         $this->events->add_action( 'do_enable_module', [ $this->install, 'create_tables' ] );
         $this->events->add_action( 'do_remove_module', [ $this->install, 'remove_tables' ] );
